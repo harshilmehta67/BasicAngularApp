@@ -1,0 +1,29 @@
+<p>first works!</p>
+<div class="container">
+<form #myForm="ngForm">
+    Name : <input type="text" class="form-control" name="name" placeholder="Enter Name of the student" required [(ngModel)]="Name">
+    <br> <br>
+    Birthdate : <input type="date" name="birthdate" required ngModel>
+    <br> <br>
+    Active : <input type="checkbox" name="active" checked required ngModel>
+    <br> <br>
+    Gender : <input type="radio" id="male" name="gender" value="male" checked ngModel> 
+    <label for="male">Male</label> <span style="display:inline-block; width: 1%;"></span> 
+    <input type="radio" id="female" name="gender" value="female" ngModel>
+    <label for="female">Female</label> <span style="display:inline-block; width: 1%;"></span>
+    <input type="radio" id="other" name="gender" value="other" ngModel>
+    <label for="other">Other</label> <span style="display:inline-block; width: 1%;"></span>
+    <br> <br>
+    Subject : 
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+    </div>
+    <br> <br>
+    <button type="button" (click)="addUser(myForm.value)"> Submit </button>
+</form>
+</div>
