@@ -1,0 +1,30 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Harshil",
+      "email": "harshil.mehta@playpowerlabs.com",
+      "gender": "male",
+      "active": true,
+      "mobile": "8238673458"
+    },
+    {
+      "id": 2,
+      "name": "HPM",
+      "email": "hpm2110@playpowerlabs.com",
+      "gender": "male",
+      "active": true,
+      "mobile": "8238673458"
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "Harshil Mehta",
+      "birthdate": "1111-11-11",
+      "active": true,
+      "gender": "male",
+      "id": 4
+    }
+  ]
+}
